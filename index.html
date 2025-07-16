@@ -1,0 +1,80 @@
+
+<!DOCTYPE html>
+<html lang="he">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Olio מגדל מגורים יוקרתי בבת ים</title>
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <style>
+    body { margin: 0; font-family: "Heebo", sans-serif; direction: rtl; background: #fff; color: #111; }
+    header { background: linear-gradient(to left, #0f2027, #203a43, #2c5364); color: white; padding: 3rem 2rem; text-align: center; }
+    header h1 { font-size: 2.8rem; }
+    .hero { display: flex; flex-direction: column; align-items: center; padding: 3rem 1rem; text-align: center; background: #f8f8f8; }
+    .hero h2 { font-size: 2rem; margin-bottom: 1rem; }
+    .hero p { max-width: 600px; font-size: 1.1rem; }
+    .cta-button { background: #ff8c00; color: white; padding: 1rem 2rem; font-size: 1.1rem; border: none; border-radius: 10px; margin-top: 2rem; cursor: pointer; transition: background 0.3s ease; }
+    .cta-button:hover { background: #e57800; }
+    .features { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 2rem; padding: 3rem 2rem; max-width: 1100px; margin: auto; }
+    .feature { background: white; padding: 1.5rem; border-radius: 10px; box-shadow: 0 2px 10px rgba(0,0,0,0.05); }
+    .feature h3 { color: #2c5364; }
+    .gallery { padding: 2rem; display: flex; gap: 1rem; overflow-x: auto; }
+    .gallery img { height: 250px; border-radius: 10px; box-shadow: 0 2px 6px rgba(0,0,0,0.1); }
+    .map { padding: 2rem; text-align: center; }
+    iframe { border-radius: 8px; width: 100%; height: 400px; max-width: 1000px; }
+    .contact-form { background: #eeeeee; padding: 3rem 2rem; }
+    .contact-form form { max-width: 600px; margin: auto; display: flex; flex-direction: column; gap: 1rem; }
+    .contact-form input, .contact-form textarea { padding: 1rem; border-radius: 6px; border: 1px solid #ccc; }
+    .contact-form button { background: #2c5364; color: white; padding: 1rem; border: none; border-radius: 8px; cursor: pointer; }
+    footer { background: #2c5364; color: white; text-align: center; padding: 2rem; margin-top: 2rem; }
+  </style>
+</head>
+<body>
+  <header data-aos="fade-down">
+    <h1>Olio בת ים</h1>
+    <p>המגדל שיעלה אותך לגובה החדש של החיים</p>
+  </header>
+
+  <section class="hero" data-aos="fade-up">
+    <h2>דירות 4 חדרים עם נוף פתוח לים</h2>
+    <p>41 קומות של יוקרה, איכות וחוויית מגורים בלב בת ים. מרחק 5 דקות מהים, מפרט פרימיום, מרפסות מרווחות ונגישות מצוינת.</p>
+    <button class="cta-button">לתיאום פגישה</button>
+  </section>
+
+  <section class="features">
+    <div class="feature" data-aos="zoom-in"><h3>מיקום אסטרטגי</h3><p>יוספטל 92 בת ים, סמוך לקניון, לתחבורה ציבורית ולכביש 20.</p></div>
+    <div class="feature" data-aos="zoom-in"><h3>נוף עוצר נשימה</h3><p>נוף פתוח לים מהחזית הדרום-מערבית, גם מהקומות האמצעיות.</p></div>
+    <div class="feature" data-aos="zoom-in"><h3>חוויית מגורים חכמה</h3><p>מערכות שליטה חכמות, מיזוג מיני מרכזי, חנייה מקורה ומחסן פרטי.</p></div>
+    <div class="feature" data-aos="zoom-in"><h3>תכנון מוקפד</h3><p>עיצוב אדריכלי ע"י פיק אדריכלים, שטחים משותפים ירוקים ומעוצבים.</p></div>
+  </section>
+
+  <section class="gallery" data-aos="fade-up">
+    <img src="https://cdn.pixabay.com/photo/2016/11/29/03/14/apartment-1867187_960_720.jpg" alt="נוף ים">
+    <img src="https://cdn.pixabay.com/photo/2018/06/18/16/05/living-room-3486162_960_720.jpg" alt="סלון מודרני">
+    <img src="https://cdn.pixabay.com/photo/2020/02/17/18/53/bathroom-4857337_960_720.jpg" alt="חדר רחצה">
+  </section>
+
+  <section class="map" data-aos="fade-up">
+    <h3>איך מגיעים?</h3>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3394.324930833189!2d34.747758176396226!3d32.01899462336011"></iframe>
+  </section>
+
+  <section class="contact-form" data-aos="fade-up">
+    <h2>רוצים פרטים נוספים?</h2>
+    <form>
+      <input type="text" placeholder="שם מלא" required>
+      <input type="tel" placeholder="טלפון" required>
+      <input type="email" placeholder="אימייל">
+      <textarea rows="4" placeholder="הודעה..."></textarea>
+      <button type="submit">שלחו לי פרטים</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>כל הזכויות שמורות &copy; מגדל OLIO 2025 | פיתוח: BIG & אשטרום</p>
+  </footer>
+
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>AOS.init();</script>
+</body>
+</html>
